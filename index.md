@@ -6,16 +6,12 @@ This is a project designed to act as an exhibit for data leakage and/or methods 
 
 
 ### Sources:
-Population and Negative Literacy Rate:
-https://nces.ed.gov/naal/estimates/StateEstimates.aspx 
+[Population and Negative Literacy Rate](https://nces.ed.gov/naal/estimates/StateEstimates.aspx) 
 
-Population Density:
-https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population_density 
+[Population Density](https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population_density)
 
-Average Temperature:
-https://www.currentresults.com/Weather/US/average-annual-state-temperatures.php 
+[Average Temperature](https://www.currentresults.com/Weather/US/average-annual-state-temperatures.php)
 
-Poverty Rate:
-https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate 
+[Poverty Rate](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate)
 
 ### References:
