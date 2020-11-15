@@ -15,3 +15,7 @@ This is a project designed to act as an exhibit for data leakage and/or methods 
 [Poverty Rate](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate)
 
 ### References:
+
+“Leakage in Data Mining: Formulation, Detection, and Avoidance", the research article I discussed at length and the only one I could find on this subject. [1]
+
+“Yuriy Guts. TARGET LEAKAGE IN MACHINE LEARNING, a presentation giving multiple examples of anti-leakage methods (some of which are actually mentioned in data science courses) https://www.youtube.com/watch?v=dWhdWxgt5SU [2]
