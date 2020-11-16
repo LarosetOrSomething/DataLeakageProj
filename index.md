@@ -14,8 +14,19 @@ This is a project designed to act as an exhibit for data leakage and/or methods 
 
 [Poverty Rate](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate)
 
+### Code :
+
 ### References:
 
-“Leakage in Data Mining: Formulation, Detection, and Avoidance", the research article I discussed at length and the only one I could find on this subject. [1]
+  [1] Kaufman, Shachar, Saharon Rosset, and Claudia Perlich. “Leakage in Data Mining: Formulation, Detection, and Avoidance,” August 2011, 8.
 
-“Yuriy Guts. TARGET LEAKAGE IN MACHINE LEARNING, a presentation giving multiple examples of anti-leakage methods (some of which are actually mentioned in data science courses) https://www.youtube.com/watch?v=dWhdWxgt5SU [2]
+	[2] Larose, Daniel, and Chantal Larose. Data Mining and Predictive Analysis. Second Edition., n.d. Accessed November 14, 2020.
+
+	[3] Yuriy Guts. TARGET LEAKAGE IN MACHINE LEARNING, 2018. https://www.youtube.com/watch?v=dWhdWxgt5SU.
+
+	[4] Gutierrez, Daniel. “Ask a Data Scientist: Data Leakage.” insidebigdata.com, November 26, 2014. https://insidebigdata.com/2014/11/26/ask-data-scientist-data-leakage/.
+
+	[5] Becker, Dan. “What Is Data Leakage.” kaggle.com, 2017. https://www.kaggle.com/dansbecker/data-leakage.
+
+	[6] Soni, Devin. “Data Leakage in Machine Learning.” towardsdatascience.com, July 16, 2019. https://towardsdatascience.com/data-leakage-in-machine-learning-10bdd3eec742.
+
