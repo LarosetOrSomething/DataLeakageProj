@@ -1,0 +1,47 @@
+d <- State_Data
+
+d$Lit_Rate <- 100-d$Percent_Lacking
+
+d <- subset = 
+
+#Building and showing the first cart model, the one of the entire set
+Cart01 <- rpart(Lit_Rate ~ ., data = d, method = "class")
+rpart.plot(Cart01, type = 4, extra = 102)
+
+#Determining said model's accuracy
+pred.cart01 <-predict(object = Cart01, newdata = d,
+                      type = "class")
+table(d$Lit_Rate, pred.cart01)
+
+StateTrain <-createDataPartition(
+  y = d$Lit_Rate, p= .80, list = FALSE
+)
+d.train <- d[StateTrain,]
+d.test <- d[-StateTrain,]
+
+#labe the training and testing data sets based on the partiton
+d.train$trainortest <- 
+  rep("train", nrow(d.train))
+d.test$trainortest <- 
+  rep("test", nrow(d.test))
+d.all <- rbind(d.train, d.test)
+
+#validate the partition on every variable, 
+kruskal.test(d$Population ~ as.factor(trainortest), data = d.all)$p.value
+kruskal.test(d$Pop_per_sqMi ~ as.factor(trainortest), data = d.all)$p.value
+kruskal.test(d$Poverty_Percent ~ as.factor(trainortest), data = d.all)$p.value
+kruskal.test(d$AVG.F ~ as.factor(trainortest), data = d.all)$p.value
+kruskal.test(d$Lit_Rate ~ as.factor(trainortest), data = d.all)$p.value
+
+#Building and showing the second cart model, the one of the training set
+Cart02 <- rpart(Lit_Rate ~ ., data = d.train, method = "class")
+rpart.plot(Cart02, type = 4, extra = 102)
+
+#Determining said model's accuracy
+pred.cart02 <-predict(object = Cart02, newdata = d.train,
+                      type = "class")
+table(d$Lit_Rate, pred.cart02)
+
+#Building and showing the third cart model, off of the testing set
+Cart03 <- rpart(Lit_Rate ~ ., data = d.test, method = "class")
+rpart.plot(Cart03, type = 4, extra = 102)
