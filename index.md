@@ -18,7 +18,7 @@ This is a project designed to act as an exhibit for data leakage and/or methods 
 
 ### References:
 
-  [1] Kaufman, Shachar, Saharon Rosset, and Claudia Perlich. “Leakage in Data Mining: Formulation, Detection, and Avoidance,” August 2011, 8.
+  	[1] Kaufman, Shachar, Saharon Rosset, and Claudia Perlich. “Leakage in Data Mining: Formulation, Detection, and Avoidance,” August 2011, 8.
 
 	[2] Larose, Daniel, and Chantal Larose. Data Mining and Predictive Analysis. Second Edition., n.d. Accessed November 14, 2020.
 
