@@ -14,7 +14,7 @@ This is a project designed to act as an exhibit for data leakage and/or methods 
 
 [Poverty Rate](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate)
 
-### Code :
+### [Repository](https://github.com/LarosetOrSomething/DataLeakageProj)
 
 ### References:
 
